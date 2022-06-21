@@ -66,14 +66,14 @@ namespace BDFARMACIA
             if ( textBoxcodigob.Text.Trim() == String.Empty && textBoxproducto.Text.Trim() == String.Empty
                 && textBoxprecio.Text.Trim() == String.Empty && textBoxcantidad.Text.Trim() == String.Empty)
             {
-                MessageBox.Show("!ERROR rellene los campos !");
+                MessageBox.Show("!ERROR rellene los espacios requeridos !");
                 return;
             }
 
 
             if (textBoxcodigob.Text.Trim() == String.Empty)
             {
-                MessageBox.Show("Ingrese el codigo de barras");
+                MessageBox.Show("Ingrese codigo de barras");
                 return;
             }
 
@@ -136,7 +136,7 @@ namespace BDFARMACIA
             }
             else
             {
-                MessageBox.Show("El producto que buscas no existe");
+                MessageBox.Show("lLosentimos el producto que buscas no existe");
             }
         }
         public void consultar()
