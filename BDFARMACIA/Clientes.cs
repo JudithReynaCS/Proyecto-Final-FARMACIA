@@ -49,7 +49,7 @@ namespace BDFARMACIA
             if ( textBoxnombre.Text.Trim() == String.Empty && textBoxapellidos.Text.Trim() == String.Empty
                 && textBoxtelefono.Text.Trim() == String.Empty )
             {
-                MessageBox.Show("Error!");
+                MessageBox.Show("Errorrrrrrrrrrr");
                 return;
             }
 
